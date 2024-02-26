@@ -17,6 +17,9 @@ function App() {
 function Board(){ 
   const [marks, setmarks] = useState([0,0,0,0,0,0,0,0,0])
   const [player,setPlayer]=useState(1)
+function Board(){ 
+  const [marks, setmarks] = useState([0,0,0,0,0,0,0,0,0])
+  const [player,setPlayer]=useState(1)
 
 useEffect(()=>{
 
